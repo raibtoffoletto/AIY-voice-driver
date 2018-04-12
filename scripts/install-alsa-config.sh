@@ -25,7 +25,7 @@ fi
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
-asoundrc=/home/pi/.asoundrc
+asoundrc=~/.asoundrc
 global_asoundrc=/etc/asound.conf
 
 for rcfile in "$asoundrc" "$global_asoundrc"; do
